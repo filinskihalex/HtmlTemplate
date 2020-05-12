@@ -1,0 +1,26 @@
+.overlay
+    .modal#consultation
+        .modal__close
+            <html> &times; </html>
+        .modal__subtitle Просто заполните форму заявки
+        .modal__descr и мы перезвоним вам в течении 10 минут
+        form.consultation__form.consultation__form__modal(action="#")
+                    input(name ="name"  type="text", placeholder="Ваше имя")
+                    input(name = "phone"  , placeholder="Ваш телефон")
+                    input(name = "email"  type="email", placeholder="email")
+                    button.button.button__form  заказать кОНСУЛЬТАЦИЮ/
+    .modal#order
+        .modal__close
+           <html> &times; </html>
+        .modal__subtitle Ваш заказ:
+        .modal__descr Пульсометр Polar FT1
+        form.consultation__form.consultation__form__modal(action="#")
+                    input(name ="name"  type="text", placeholder="Ваше имя")
+                    input(name = "phone"  , placeholder="Ваш телефон")
+                    input(name = "email"  type="email", placeholder="email")
+                    button.button.button__form  Купить
+    .modal#thanks.modal__mini
+        .modal__close
+           <html> &times; </html>
+        .modal__subtitle Спасибо за вашу заявку!
+        .modal__descr Наш менеджер свяжется с вами в ближайшее время!

@@ -1,0 +1,46 @@
+.promo
+    min-height: 650px
+    background: url(../img/promo/bg1.png) center center/cover no-repeat
+    padding: 21px 0 93px 0
+
+    &__wrapper
+        margin-top: 91px
+        display: flex
+        flex-direction: column
+        align-items: flex-end  
+        h1
+            color: #ffffff
+            font-size: 42px
+            font-weight: 700
+            text-transform: uppercase
+            
+        h2 
+            color: #ffffff
+            font-size: 24px
+            font-weight: 500
+            text-transform: uppercase
+        .button__big
+            @include button
+            @include button__big
+            margin-top: 67px
+        p
+            color: #ffffff
+            font-size: 16px
+            font-weight: 500
+            margin-top: 18px
+            span
+                text-decoration: underline
+
+    &__items
+        display: grid
+        grid: 96px/ 107px 107px 107px
+        margin-top: 67px
+        column-gap: 62px
+    &__icon
+        text-align: center;
+        p
+            color: #ffffff
+            font-size: 14px
+            font-weight: 500
+            margin-top: 20px
+        
