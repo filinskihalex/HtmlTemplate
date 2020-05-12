@@ -6,7 +6,7 @@ module.exports = function sync(cb) {
 		  .pipe(rsync({
 		    root: 'build/',
             hostname: 'f2service.ru',
-            username: 'root',
+            username: 'test',
 		    destination: '/share',
 		    // include: ['*.htaccess'], // Includes files to deploy
 		    // exclude: ['**/Thumbs.db', '**/*.DS_Store'], // Excludes files from deploy

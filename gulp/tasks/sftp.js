@@ -5,7 +5,7 @@ module.exports = function ftp(cb) {
     return gulp.src('build/**/*')
         .pipe(sftp({
             host: 'f2service.ru',
-            user: 'root',
-            remotePath: '/root/docker/src/pulsom_f2service_ru'
+            user: 'test',
+            remotePath: '/root/src/test'
         }));
 };
