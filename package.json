@@ -1,11 +1,11 @@
 {
-  "name": "watch",
+  "name": "dhl",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "erek",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
