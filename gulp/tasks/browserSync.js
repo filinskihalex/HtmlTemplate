@@ -18,7 +18,7 @@ module.exports = function serverWeb(cb) {
                 }
             });
 
-    gulp.watch("./src/pug/page/**/*.pug", gulp.series(pug2html, pug_build, rename ));
+    gulp.watch("./src/pug/pages/**/*.pug", gulp.series(pug2html, pug_build, rename ));
     gulp.watch('./src/sass/**/*.+(scss|sass)', gulp.series(style,style_build));
     gulp.watch("./src/icons/**/*", gulp.series(copyIco));
     gulp.watch('./src/fonts' , gulp.series(copyFonts));

@@ -9,7 +9,7 @@ const cache = require('gulp-cached');
 
 
 module.exports = function pug2html(cb) {
-    return gulp.src('./src/pug/page/**/*.pug')
+    return gulp.src('./src/pug/pages/**/*.pug')
         .pipe(cache('pug'))
         .pipe(plumber())
         .pipe(pugLinter({reporter: 'default'}))

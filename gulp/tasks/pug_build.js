@@ -9,7 +9,7 @@ const htmlmin = require('gulp-htmlmin');
 
 
 module.exports = function pug2html_build(cb) {
-    return gulp.src('./src/pug/page/**/*.pug')
+    return gulp.src('./src/pug/pages/**/*.pug')
         .pipe(plumber())
         .pipe(pugLinter({reporter: 'default'}))
         .pipe(pug())
